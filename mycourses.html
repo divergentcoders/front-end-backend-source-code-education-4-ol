@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> My Courses</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <style >
+    html {
+height:100%;
+}
+
+body {
+margin:0;
+}
+
+.bg {
+animation:slide 3s ease-in-out infinite alternate;
+background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+bottom:0;
+left:-50%;
+opacity:.5;
+position:fixed;
+right:-50%;
+top:0;
+z-index:-1;
+}
+
+.bg2 {
+animation-direction:alternate-reverse;
+animation-duration:4s;
+}
+
+.bg3 {
+animation-duration:5s;
+}
+
+.content {
+background-color:rgba(255,255,255,.8);
+border-radius:.25em;
+box-shadow:0 0 .25em rgba(0,0,0,.25);
+box-sizing:border-box;
+left:50%;
+padding:10vmin;
+position:fixed;
+text-align:center;
+top:50%;
+transform:translate(-50%, -50%);
+}
+
+h1 {
+font-family:monospace;
+}
+
+@keyframes slide {
+0% {
+  transform:translateX(-25%);
+}
+100% {
+  transform:translateX(25%);
+}
+}
+    </style>
+  </head>
+  <body>
+    <div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+<div class="content">
+  <center>
+  <h2 class="animate__animated animate__bounceInLeft animate__repeat-3 "> MY LEARNING</h2>
+    <br><br>
+  </center>
+  <div class="card-deck">
+  <div class="card ">
+  <img src="https://tse2.mm.bing.net/th?id=OIP.iAT0q6OVxpBx3NlylNevdAHaDL&pid=Api&P=0&w=361&h=156" class="card-img-top" alt="...">
+  <div class="card-body">
+   <a href=""> HC VERMA SOLUTIONS</a>
+  </div>
+  </div>
+  <div class="card ">
+  <img src="https://tse2.mm.bing.net/th?id=OIP.G0pyHYwu38ph7-9EUJWvTQHaE8&pid=Api&P=0&w=250&h=167" class="card-img-top" alt="...">
+  <div class="card-body">
+    <a href=""> PREVIOUS YEAR JEE PAPER</a>
+  </div>
+  </div>
+  <div class="card ">
+  <img src="https://tse1.mm.bing.net/th?id=OIP.rwyKHOPhNfoNDlu0K42vPAHaE8&pid=Api&P=0&w=277&h=186" class="card-img-top" alt="...">
+  <div class="card-body">
+    <a href="">MOCK TEST SERIES(NEET)</a>
+     </div>
+  </div>
+</div>
+  </body>
+</html>
